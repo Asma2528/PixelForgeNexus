@@ -1,0 +1,40 @@
+# Node.js dependencies
+node_modules/
+
+# Build output
+dist/
+dist-ssr/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# OS-specific files
+.DS_Store
+
+# IDE and Editor specific directories and files
+.vscode/*  # VS Code settings
+!.vscode/extensions.json  # Keep VS Code extensions settings
+.idea/  # JetBrains IDE settings
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Environment files
+.env  # Exclude environment variables file
+
+# Build artifacts
+build/
+coverage/
+
+# Temporary files
+*.local
+
+# Optional: Exclude log files from any other services like Tailwind, etc.
+*.css.map
